@@ -1,0 +1,78 @@
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #77a1d3 3px solid;
+  text-align: center;
+}
+
+header h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 2.5em;
+}
+
+main {
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.bio, .early-life, .political-career, .achievements, .legacy {
+  margin-bottom: 20px;
+}
+
+.bio {
+  text-align: center;
+}
+
+.bio img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.bio p, .early-life p, .political-career p, .achievements p, .legacy p {
+  font-size: 1.1em;
+  color: #333;
+}
+
+.achievements ul {
+  list-style: none;
+  padding: 0;
+}
+
+.achievements ul li {
+  background: #eee;
+  margin: 5px 0;
+  padding: 10px;
+  border-left: #77a1d3 3px solid;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  border-top: #77a1d3 3px solid;
+}
